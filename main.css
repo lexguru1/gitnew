@@ -1,0 +1,19 @@
+.box1, 
+.box2,
+.box3 {
+    background-color: aqua;
+    border: 1px solid antiquewhite;
+    border-radius: 20px;
+    width: 100px;
+    margin:20px;    
+    padding: 20px;
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper > div {
+    flex: 1;
+}
